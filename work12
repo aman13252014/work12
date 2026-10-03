@@ -1,0 +1,54 @@
+#==================
+#GROCERY COST COMPARISON ROOL
+#==================
+
+print("===GROCERY COST COPARISON===")
+#------------PART 1:what did this week's shop cost per person?----------
+#YOUR CODE HERE
+# Store these five value in variables:
+#   rice_price=12,milk_price=4,fruit_price=4
+#number_of_baskets=2,
+family_members=4
+#
+#then work out
+basket_cost_per_person:
+#    add the three prices together,multiply by the number of baskets,
+#   divide by the number of family members.
+#   you will need parentheses.Read the Instructions before you guess where.
+#
+# Print the result.
+
+#--------- Part 2: can the item be shared equally?----------
+# YOUR CODE HERE
+# Ask for total_item and people, both wrapped in int(). 
+#If people is 0, print a message saying you cannot share between 0 peole.
+#Otherwise use % to check divisibility:
+#    remainder 0 -> say they divide equally, and use // to say how many each
+#   otherwise   -> say they do not, and report the remainder
+
+#---------- PART 3: fix the weekly average-----------
+# YOUR CODE HERE
+#recorded_average= 65,
+total_week=4
+#wrong_week_cost=50
+correct_week_cost=80
+#
+#Work backwards:multiply the average by the weeks to rebuild the total.
+#Divide by the week again to get corrected_average.
+#Print all three numbers.
+
+#-------PART4:compare with three stores----------
+#YOUR CODE HERE
+store_a_average=70
+store_b_average=75
+store_c_average=80
+#
+#Use and to test all three at once.
+#Store the outcome in a variable called verdict -do not just print it,
+#because Part 5 needs it.
+
+#---------PART 5: the summary --------
+#YOUR CODE HERE
+#Print basket_cost_per_person
+from Part 1, corrected_average from part 3,
+#and verdict from Part 4,all together
